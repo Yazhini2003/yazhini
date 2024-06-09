@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+        font-family: "Poppins", sans-serif;
+        font-size: small;
+        font-style: normal;
+        background-image: url('photos/goal.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    opacity: 0.9;
+    
+        
+}
+.navbar{
+    background-color: rgb(15, 25, 60);
+    color: rgb(84, 100, 186);
+    padding: 10px;
+}
+.container{
+    padding: 10px;
+}
+.goalcontainer{
+    background-color: rgb(38, 50, 114);
+    width: 25%;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 30px;
+    color: lightblue;
+    display: inline-block;
+    vertical-align: top;
+}
+.goalcontainer h2{
+    color:whitesmoke
+}
+.goalcontainer button{
+    color:rgb(15, 25, 60);
+    background-color: rgb(155, 167, 233);
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border:none;
+    margin-top: 10px;
+}
+.addbutton{
+    background-color:  rgb(38, 50, 114);
+    color: lightblue;
+    border-radius: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border:none;
+    font-size: 35px;
+    margin-left: 100%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.popupoverlay{
+    background-color: rgb(4, 4, 26);
+    opacity: 0.7;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    display: none;
+}
+.popupbox{
+    background-color: rgb(24, 24, 81);
+    width: 350px;
+    padding: 40px;
+border-radius: 10px;
+position: absolute;
+top: 20%;
+left: 20%;
+z-index: 2;
+align-items: center;
+margin-left: 15%;
+display: none;
+}
+.popupbox input{
+    background-color: transparent;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+    border: solid black 2px;
+    color: aliceblue;
+}
+
+.popupbox textarea{
+    background-color: transparent;
+    border: solid black 2px;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+    border-bottom: solid black 2px;
+    color: aliceblue;
+}
+.popupbox button{
+    background-color: rgb(11, 1, 41);
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 7px;
+    color: rgb(130, 140, 149);
+border-radius: 3px;
+}
+.popupbox input:focus{
+    outline: none;
+}
+.popupbox textarea:focus{
+    outline: none;
+}

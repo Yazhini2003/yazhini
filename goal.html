@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>goalZest</title>
+    <link rel="stylesheet" href="goal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./photos/goal.jpg">
+</head>
+<body>
+
+    <div class="navbar">
+        <h1>goalZest</h1>
+    </div>
+    <div class="container">
+                <div class="goalcontainer">
+            <h2>wakingup early</h2>
+            <h5>2-3 weeks</h5>
+            <p>Waking up early kickstarts my day with energy and blessings, ready to tackle whatever comes my way.</p>
+            <button onclick="deletegoal(event)">Delete</button>
+        </div>
+    </div>
+    <div class="popupoverlay"></div>
+    <div class="popupbox">
+        <h2>goal</h2>
+        <form>
+           <input type="text" placeholder="GoaL" id="goalinput">
+           <input type="text" placeholder="Estimated time duration" id="timeinput">
+           <textarea name="" id="whyinput" cols="20" rows="3" placeholder="Why?"></textarea>
+           <button id="addgoal">Add</button>
+           <button id="cancelg">Cancel</button>
+        </form>
+    </div>
+    <button class="addbutton" id="popupbutton">+</button>
+    <script src="goal.js"></script>
+    
+</body>
+</html>
